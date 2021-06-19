@@ -112,3 +112,23 @@ hr {
 .navigation .link-active {
     font-weight: bold;
 }
+
+
+/* header */
+
+.hero {
+    padding: 2rem;
+    text-align: center;
+}
+
+.hero .hero-image {
+    max-width: 400px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-header {
+    padding: 0.5rem;
+    font-size: 2rem;
+    color: rgb(121, 84, 84);
+}
