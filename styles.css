@@ -132,3 +132,18 @@ hr {
     font-size: 2rem;
     color: rgb(121, 84, 84);
 }
+
+
+/* sections */
+
+.section {
+    padding: 2rem;
+}
+
+.section h1 {
+    text-align: center;
+}
+
+.ow {
+    background-color: rgb(230, 219, 219);
+}
