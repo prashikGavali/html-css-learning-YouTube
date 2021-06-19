@@ -32,6 +32,10 @@ body {
     font-family: 'Titillium Web', sans-serif;
 }
 
+hr {
+    margin: 1.5rem 0rem;
+}
+
 
 /* container */
 
@@ -66,4 +70,16 @@ body {
     color: var(--primary-color);
     border-radius: 0.9rem;
     border: 1px solid var(--primary-color);
+}
+
+
+/* lists */
+
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-inline-item {
+    display: inline;
+    padding: 0rem 0.5rem;
 }
