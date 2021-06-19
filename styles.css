@@ -23,6 +23,47 @@ link {
 } */
 
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+:root {
+    --primary-color: rgba(141, 24, 209, 0.945);
+    --secondary-color: rgb(31, 134, 202);
+}
+
 body {
     font-family: 'Titillium Web', sans-serif;
+}
+
+
+/* container */
+
+.container {
+    /* padding-left: 1rem;
+    padding-right: 1rem; */
+    padding: 0rem 1rem;
+}
+
+.container-center {
+    max-width: 600px;
+    margin: auto;
+}
+
+
+/* links */
+
+.link {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    /* padding: top left right; */
+}
+
+.link-primary {
+    /* color: var(--primary-color); */
+    background-color: var(--secondary-color);
+    border-radius: 0.9rem;
+    color: bisque;
+}
+
+.link-secondary {
+    color: var(--primary-color);
+    border-radius: 0.9rem;
+    border: 1px solid var(--primary-color);
 }
