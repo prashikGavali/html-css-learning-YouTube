@@ -24,7 +24,7 @@ link {
 
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
 :root {
-    --primary-color: rgba(141, 24, 209, 0.945);
+    --primary-color: rgba(206, 20, 206, 0.945);
     --secondary-color: rgb(31, 134, 202);
 }
 
@@ -82,4 +82,33 @@ hr {
 .list-inline-item {
     display: inline;
     padding: 0rem 0.5rem;
+}
+
+
+/* navigation */
+
+.navigation {
+    background-color: var(--primary-color);
+    color: blanchedalmond;
+    padding: 1rem;
+    border-bottom-left-radius: 1.5rem;
+}
+
+.navigation .link {
+    color: beige;
+    border-radius: 0.5rem;
+}
+
+.navigation .nav-pills {
+    text-align: center;
+}
+
+.navigation .brand-name {
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.navigation .link-active {
+    font-weight: bold;
 }
