@@ -1,0 +1,23 @@
+body {
+    color: rgb(212, 182, 47);
+}
+
+h1 {
+    color: rgb(139, 173, 16);
+}
+
+h2 {
+    color: rgb(12, 77, 6);
+}
+
+link {
+    color: rgb(34, 34, 207);
+}
+
+#lib_header {
+    color: coral;
+}
+
+.para {
+    color: slategrey;
+}

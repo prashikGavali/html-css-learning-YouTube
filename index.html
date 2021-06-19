@@ -6,10 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Component Library</title>
+    <!-- CSS way 1: Style tag 
+        <style>
+        body {
+            color: grey;
+        }
+    </style> -->
+    <!-- Third way of doing CSS: external link -->
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <h1>Welcome to Prashik Gavali's Component Library</h1>
+    <h1 id="lib_header">Welcome to Prashik Gavali's Component Library</h1>
     <p>I am learning these languages from youtube.com and I want to create a Component Library to use in my further projects.</p>
 
     <hr>
@@ -26,10 +34,10 @@
     <h2>@containers</h2>
 
     <h3>fluid container</h3>
-    <div>This is a fluid container and it will go till the end of the page</div>
+    <div class="para">This is a fluid container and it will go till the end of the page</div>
 
     <h3>center container</h3>
-    <div>This is a centered container and it will go till the specified device-width</div>
+    <div class="para">This is a centered container and it will go till the specified device-width</div>
 
     <hr>
 
@@ -109,7 +117,7 @@
     <h2>@footer</h2>
 
     <footer>
-        <div>Some sort of headings but not header tags</div>
+        <div class="para">Some sort of headings but not header tags</div>
         <li>Des-one</li>
         <li>Des-two</li>
         <li>Des-three</li>
@@ -117,5 +125,7 @@
 
     <!-- <div style="height: 15vh;"></div> -->
 </body>
+
+</html>
 
 </html>
