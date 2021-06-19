@@ -1,4 +1,4 @@
-body {
+/* body {
     color: rgb(212, 182, 47);
 }
 
@@ -20,4 +20,9 @@ link {
 
 .para {
     color: slategrey;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+body {
+    font-family: 'Titillium Web', sans-serif;
 }
