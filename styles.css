@@ -147,3 +147,22 @@ hr {
 .ow {
     background-color: rgb(230, 219, 219);
 }
+
+
+/* footers */
+
+.footer {
+    background-color: cornflowerblue;
+    padding: 2rem;
+    text-align: center;
+    color: bisque;
+    border-top-right-radius: 1.5rem;
+}
+
+.footer .link {
+    color: blanchedalmond;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
+}
